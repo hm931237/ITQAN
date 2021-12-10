@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITQAN", "ITQAN\ITQAN.csproj", "{BF35B7E9-BE3C-4949-AC49-14338B01CB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLProvider", "SQLProvider\SQLProvider.csproj", "{B40418A9-D149-47CA-90A4-E0222D64A6AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF35B7E9-BE3C-4949-AC49-14338B01CB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF35B7E9-BE3C-4949-AC49-14338B01CB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF35B7E9-BE3C-4949-AC49-14338B01CB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF35B7E9-BE3C-4949-AC49-14338B01CB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40418A9-D149-47CA-90A4-E0222D64A6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40418A9-D149-47CA-90A4-E0222D64A6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40418A9-D149-47CA-90A4-E0222D64A6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40418A9-D149-47CA-90A4-E0222D64A6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {176AB5C0-CFED-49A3-A133-228216DE3A70}
+	EndGlobalSection
+EndGlobal
