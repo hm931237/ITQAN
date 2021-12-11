@@ -33,6 +33,7 @@ namespace ITQAN
             services.AddControllers();
             services.AddDbContext<TaskContext>(x => x.UseSqlServer(_configuration.GetConnectionString("Default")));
             services.AddScoped<ITicket, TicketRepository>();
+            services.AddScoped<IMail, Mail>();
             services.AddAutoMapper(typeof(Startup));
         }
 
